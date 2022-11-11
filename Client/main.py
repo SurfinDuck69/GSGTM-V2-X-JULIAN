@@ -3,7 +3,7 @@ import os
 
 
 def client():
-    host = socket.gethostname()  # as both code is running on same pc
+    host = "3.122.246.149"   # as both code is running on same pc
     port = 5000  # socket server port number
 
     client_socket = socket.socket()  # instantiate
